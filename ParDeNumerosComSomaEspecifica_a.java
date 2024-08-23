@@ -24,7 +24,7 @@ public class ParDeNumerosComSomaEspecifica_a {
                 List<List<Integer>> listaDePares = new ArrayList<>();
 
                 // Adicionando pares à lista
-                List<Integer> par1 = new ArrayList<>();
+                List<Integer> par = new ArrayList<>();
                 par1.add(1);
                 par1.add(100);
             }
@@ -32,6 +32,10 @@ public class ParDeNumerosComSomaEspecifica_a {
 
 
 
+    }
+
+    for (List<Integer> par : listaDePares) {
+        System.out.println(par.get(0)) == nums.get(i) && System.out.println(par.get(1)) == nums.get(j);  // Acessa o primeiro valor de cada sublista
     }
 
 

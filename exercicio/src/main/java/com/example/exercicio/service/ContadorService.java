@@ -6,9 +6,8 @@ import org.springframework.stereotype.Service;
 public class ContadorService {
 
     public int contarCaracteres(String input) {
-        if (input == null) {
-            return 0;
-        }
+        if (input == null) return 0;
+        
         // Remove espaços em branco e conta os caracteres restantes
         return input.replace(" ", "").length();
     }
